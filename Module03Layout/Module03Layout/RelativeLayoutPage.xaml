@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Module03Layout.RelativeLayoutPage">
+    <ContentPage.Content>
+        <RelativeLayout>
+            <Image RelativeLayout.XConstraint="-20" RelativeLayout.YConstraint="0" Source="relativeLayoutImage.jpg" Aspect="AspectFit" HeightRequest="{OnPlatform iOS=400, Android=250}"/>
+            <Label RelativeLayout.XConstraint="0" RelativeLayout.YConstraint="220" Text="RelativeLayout Demo" />
+        </RelativeLayout>
+    </ContentPage.Content>
+</ContentPage>

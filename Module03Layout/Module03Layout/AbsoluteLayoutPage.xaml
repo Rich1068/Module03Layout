@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Module03Layout.AbsoluteLayoutPage">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Image AbsoluteLayout.LayoutBounds="100,200" Source="absoluteLayoutImage.jpg" Aspect="AspectFit" HeightRequest="{OnPlatform iOS=400, Android=250}"/>
+            <Label AbsoluteLayout.LayoutBounds="180,450" Text="AbsoluteLayout Example!" />
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
